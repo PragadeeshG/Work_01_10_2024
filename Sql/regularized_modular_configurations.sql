@@ -1,0 +1,18 @@
+create table if not exists regularized_modular_configurations(
+modular_version_code Integer not null,
+modular_version_id Integer null,
+table_view_name varchar(255) null,
+db_name varchar(255) null,
+json_name varchar(255) null,
+data_type varchar(255) null,
+mandatory char null,
+size varchar(255) null,
+default_value varchar(255) null,
+hidden_column varchar(255) null,
+serializer varchar(255) null,
+de_serializer varchar(255) null,
+synthetic_data varchar(255) null,
+raw_data varchar(255) null,
+entity_state varchar(255) null,
+remarks varchar(255) null,
+constraint regularized_modular_configurations_pk primary key(modular_version_code));
